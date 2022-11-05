@@ -1822,7 +1822,7 @@
   (symbol (lib_id "power:GND") (at 255.27 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1281690f-d0c0-4e7c-8e9b-b3fec11a3e67)
-    (property "Reference" "#PWR?" (id 0) (at 255.27 148.59 0)
+    (property "Reference" "#PWR04" (id 0) (at 255.27 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 255.27 147.32 0))
@@ -2098,7 +2098,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 247.65 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 358db39b-417f-4d50-8276-ae73a4dbda31)
-    (property "Reference" "H?" (id 0) (at 250.19 134.6199 0)
+    (property "Reference" "H3" (id 0) (at 250.19 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 250.19 137.1599 0)
@@ -2149,7 +2149,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 255.27 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 40150b75-969d-4cd4-93e5-e8258fa7d188)
-    (property "Reference" "H?" (id 0) (at 257.81 134.6199 0)
+    (property "Reference" "H4" (id 0) (at 257.81 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 257.81 137.1599 0)
@@ -2339,7 +2339,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 232.41 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 757c54d8-07ff-441d-be3d-65751b9d4914)
-    (property "Reference" "H?" (id 0) (at 234.95 134.6199 0)
+    (property "Reference" "H1" (id 0) (at 234.95 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 236.22 137.1599 0)
@@ -2424,7 +2424,7 @@
   (symbol (lib_id "power:GND") (at 240.03 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9259b80d-1969-4589-94a9-080673952826)
-    (property "Reference" "#PWR?" (id 0) (at 240.03 148.59 0)
+    (property "Reference" "#PWR02" (id 0) (at 240.03 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 240.03 147.32 0))
@@ -2557,7 +2557,7 @@
   (symbol (lib_id "power:GND") (at 232.41 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a3a27186-2051-4909-991d-caf80cec8df9)
-    (property "Reference" "#PWR?" (id 0) (at 232.41 148.59 0)
+    (property "Reference" "#PWR01" (id 0) (at 232.41 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 232.41 147.32 0))
@@ -2785,7 +2785,7 @@
   (symbol (lib_id "power:GND") (at 247.65 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bb1469d3-6926-4d46-adfc-865ef7215321)
-    (property "Reference" "#PWR?" (id 0) (at 247.65 148.59 0)
+    (property "Reference" "#PWR03" (id 0) (at 247.65 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 247.65 147.32 0))
@@ -3141,7 +3141,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 240.03 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e24b16b7-83bf-4189-99e5-84cfc419f98d)
-    (property "Reference" "H?" (id 0) (at 243.84 134.6199 0)
+    (property "Reference" "H2" (id 0) (at 243.84 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 243.84 137.1599 0)
@@ -3259,17 +3259,17 @@
   )
 
   (symbol_instances
-    (path "/1281690f-d0c0-4e7c-8e9b-b3fec11a3e67"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/a3a27186-2051-4909-991d-caf80cec8df9"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
     (path "/9259b80d-1969-4589-94a9-080673952826"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a3a27186-2051-4909-991d-caf80cec8df9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/bb1469d3-6926-4d46-adfc-865ef7215321"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1281690f-d0c0-4e7c-8e9b-b3fec11a3e67"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/dce51636-b20e-418f-aae8-16711401d173"
       (reference "D1") (unit 1) (value "UV LED") (footprint "LED_SMD:LED_PLCC_2835_Handsoldering")
@@ -3334,17 +3334,17 @@
     (path "/a0395e94-794a-403c-bf22-18e81b5616d1"
       (reference "D21") (unit 1) (value "UV LED") (footprint "LED_SMD:LED_PLCC_2835_Handsoldering")
     )
-    (path "/358db39b-417f-4d50-8276-ae73a4dbda31"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
-    )
-    (path "/40150b75-969d-4cd4-93e5-e8258fa7d188"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
-    )
     (path "/757c54d8-07ff-441d-be3d-65751b9d4914"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/e24b16b7-83bf-4189-99e5-84cfc419f98d"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/358db39b-417f-4d50-8276-ae73a4dbda31"
+      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/40150b75-969d-4cd4-93e5-e8258fa7d188"
+      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/c36a3340-352f-453e-a7ed-e92b15cd9612"
       (reference "J1") (unit 1) (value "Conn_02x08_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical")
