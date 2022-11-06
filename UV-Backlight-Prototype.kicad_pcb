@@ -3681,6 +3681,21 @@
   (gr_line (start 200 140) (end 100 140) (layer "Edge.Cuts") (width 0.1) (tstamp 88dd3927-911c-408b-931a-2f2d8ec41e07))
   (gr_line (start 100 40) (end 200 40) (layer "Edge.Cuts") (width 0.1) (tstamp 9f737dac-36c3-45f8-a104-2de4b16dcb7d))
   (gr_line (start 200 40) (end 200 140) (layer "Edge.Cuts") (width 0.1) (tstamp dc0c27b5-a85d-4897-b063-0b8bd7b7e286))
+  (gr_line (start 195.1 60.1) (end 195.1 100.1) (layer "User.4") (width 0.2) (tstamp 1451a0cf-96f3-4063-95fc-88e28bc3dd0f))
+  (gr_line (start 180.1 60.1) (end 180.1 100.1) (layer "User.4") (width 0.2) (tstamp 1dc27187-a1b7-483d-ac3c-52fbdb3c1458))
+  (gr_line (start 100.1 100.1) (end 100.1 40.1) (layer "User.4") (width 0.2) (tstamp 27aea78e-7b83-47ea-9557-36db7d770632))
+  (gr_line (start 165.1 60.1) (end 165.1 100.1) (layer "User.4") (width 0.2) (tstamp 2996fbb8-0f66-4ba2-ad22-7be08ae6d17b))
+  (gr_line (start 200.1 100.1) (end 100.1 100.1) (layer "User.4") (width 0.2) (tstamp 321a4e47-b77f-4d92-9508-87c3d705c5da))
+  (gr_line (start 200.1 40.1) (end 200.1 100.1) (layer "User.4") (width 0.2) (tstamp 59a44317-6663-4968-a267-160c6199f1e9))
+  (gr_line (start 200.1 65.1) (end 100.1 65.1) (layer "User.4") (width 0.2) (tstamp 5cd7af27-62a9-41d2-99e1-6f7ccf02d0b2))
+  (gr_line (start 100.1 40.1) (end 200.1 40.1) (layer "User.4") (width 0.2) (tstamp 648c6e2e-9196-4fa8-a132-c79b92cc9782))
+  (gr_line (start 105.1 100.1) (end 105.1 60.1) (layer "User.4") (width 0.2) (tstamp b6aae217-5146-431a-9f76-af6b6635e679))
+  (gr_line (start 100.1 95.1) (end 200.1 95.1) (layer "User.4") (width 0.2) (tstamp c8c7149b-dce5-42c1-9647-2b796245abb9))
+  (gr_line (start 135.1 60.1) (end 135.1 100.1) (layer "User.4") (width 0.2) (tstamp c98f8013-65e6-4e7c-b15c-64d8cd40b493))
+  (gr_line (start 200.1 80.1) (end 100.1 80.1) (layer "User.4") (width 0.2) (tstamp cc9f4d73-7d76-47a8-8aa8-a75b1a6c8a8c))
+  (gr_line (start 150.1 60.1) (end 150.1 100.1) (layer "User.4") (width 0.2) (tstamp ceefa7af-3907-47d8-939a-21fd81c07cbb))
+  (gr_line (start 120.1 60.1) (end 120.1 100.1) (layer "User.4") (width 0.2) (tstamp f29df692-847a-438d-ba45-6e7c116784e8))
+  (gr_line (start 100.1 60.1) (end 200.1 60.1) (layer "User.4") (width 0.2) (tstamp fcf669ca-31e2-4339-8c28-dc4230a02446))
 
   (zone (net 25) (net_name "GND") (layer "F.Cu") (tstamp 1811739f-078a-4b3d-9085-895e0894e4ad) (hatch edge 0.508)
     (connect_pads no (clearance 0.508))
@@ -3797,6 +3812,25 @@
         (xy 100 42)
         (xy 100 40)
       )
+    )
+  )
+  (group "" (id af7fc038-b5d8-4061-bc34-6b787433aa75)
+    (members
+      1451a0cf-96f3-4063-95fc-88e28bc3dd0f
+      1dc27187-a1b7-483d-ac3c-52fbdb3c1458
+      27aea78e-7b83-47ea-9557-36db7d770632
+      2996fbb8-0f66-4ba2-ad22-7be08ae6d17b
+      321a4e47-b77f-4d92-9508-87c3d705c5da
+      59a44317-6663-4968-a267-160c6199f1e9
+      5cd7af27-62a9-41d2-99e1-6f7ccf02d0b2
+      648c6e2e-9196-4fa8-a132-c79b92cc9782
+      b6aae217-5146-431a-9f76-af6b6635e679
+      c8c7149b-dce5-42c1-9647-2b796245abb9
+      c98f8013-65e6-4e7c-b15c-64d8cd40b493
+      cc9f4d73-7d76-47a8-8aa8-a75b1a6c8a8c
+      ceefa7af-3907-47d8-939a-21fd81c07cbb
+      f29df692-847a-438d-ba45-6e7c116784e8
+      fcf669ca-31e2-4339-8c28-dc4230a02446
     )
   )
 )
