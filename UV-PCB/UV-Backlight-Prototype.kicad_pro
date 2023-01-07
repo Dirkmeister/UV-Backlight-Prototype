@@ -407,16 +407,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Thermsistor",
-        "nets": [
-          "T1-In",
-          "T1-Out",
-          "T2-In",
-          "T2-Out",
-          "T3-In",
-          "T3-Out",
-          "T4-In",
-          "T4-Out"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
